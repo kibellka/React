@@ -1,0 +1,48 @@
+.cards {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 112, 243, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.card div {
+  text-align: left;
+  padding: 0.5rem 0;
+}
+
+.card h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.4rem;
+  color: #666;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.card span {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #365f92;
+}

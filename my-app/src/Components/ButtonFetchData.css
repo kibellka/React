@@ -1,0 +1,16 @@
+.btn {
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #365f92;
+  padding: 1.2rem 3rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 1.5rem 0;
+}

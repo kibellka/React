@@ -1,0 +1,28 @@
+.header {
+  align-self: stretch;
+  text-align: center;
+  padding: 1.5rem 0;
+  background-color: #41546a;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  margin: 2rem;
+}
+
+.header h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.homework-info {
+  font-size: 1.4rem;
+  margin: 1rem;
+  color: #f1f1f1;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 2rem;
+  color: #666;
+  text-align: center;
+}
