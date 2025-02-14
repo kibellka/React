@@ -14,8 +14,7 @@ export default function App() {
   const fetchData = () => {
     fetch(url)
       .then((response) => {
-        console.log("Получен ответ от API:");
-        console.log(response);
+        setShips([]);
         if (response.status != 200) {
           throw "Error getting data!";
         } else {
@@ -28,8 +27,6 @@ export default function App() {
       })
       .catch((error) => {
         setError("Ошибка при получении данных!");
-        console.log("Ошибка получения данных: ");
-        console.log(error);
       });
   };
 
